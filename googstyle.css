@@ -1,0 +1,55 @@
+body {
+	top-margin: 10px;
+	font-size: 15px;
+	
+}
+
+.nav {
+	float: right;
+}
+
+li {
+	display: inline;
+	margin: 10px;
+}
+
+.content {
+	clear: both;
+	margin: 180px 550px 100px;
+	position: absolute;
+}
+
+a:link {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	position: absolute;
+	bottom: 5px;
+	width:100%;
+	min-width: 455px;
+}
+
+#foot_left {
+	float: left;
+}
+
+#foot_right {
+	float: right;
+}
+
+#sign-in {
+	background-color: #2372B2;
+	border-radius: 1px;
+	color: white;
+	padding: 5px 10px;
+}
+
+#sign-in:hover {
+	text-decoration: none;
+}
